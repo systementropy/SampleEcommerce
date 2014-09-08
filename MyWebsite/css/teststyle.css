@@ -1,0 +1,51 @@
+.row{
+	margin: 0;
+}
+
+.productContainer{
+	margin: 1% 2%;
+	width: 20%;
+	border: 2px solid #ABC3FF;
+	color: #7F7F7F;
+	background-color: #EEEEEE;
+	float: left;
+}
+
+
+.pHActive{
+	background-color: #ABC3FF;
+	color: #EEEEEE;
+	cursor: default;
+}
+
+.productName{
+	text-align: center;
+	font-weight: bold;
+	color: #ABC3FF;
+}
+.productHead{
+	border-bottom: 2px solid #ABC3FF;
+	color: #ABC3FF;
+	cursor: pointer;
+
+}
+
+@media (max-width: 720px) {
+	.productContainer{
+		width: 25%;
+	}
+}
+
+@media (max-width: 640px) {
+	.productContainer{
+		width: 40%;
+	}
+}
+
+@media (max-width: 480px) {
+	.productContainer{
+		width: 80%;
+	}
+}
+
+
